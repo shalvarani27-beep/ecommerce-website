@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftShop | Responsive Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">SwiftShop</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#">Account</a></li>
+        </ul>
+        <div class="cart-status">
+            🛒 Cart (<span id="cart-count">0</span>)
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>New Arrivals 2026</h1>
+            <p>Experience the future of tech and style.</p>
+            <a href="#shop" class="btn-primary">Explore Now</a>
+        </div>
+    </header>
+
+    <main class="products-container" id="shop">
+        <h2 class="section-title">Featured Products</h2>
+        
+        <div class="product-grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="Watch">
+                <div class="card-body">
+                    <h3>Classic Watch</h3>
+                    <p class="price">$120.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="Headphones">
+                <div class="card-body">
+                    <h3>Studio Pro</h3>
+                    <p class="price">$250.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="Shoes">
+                <div class="card-body">
+                    <h3>Aero Sneakers</h3>
+                    <p class="price">$95.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SwiftShop. Modern Designs for Modern Living.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
